@@ -24,3 +24,21 @@
   color: #7b63c5;
   margin-bottom: 65px;
 }
+
+/* RESPONSIVIDADE */
+@media (max-width: 800px){
+  .page-home{
+    max-width: 500px;
+    margin: 115px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .row h3{
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .row img{
+    display: none;
+  }
+}
