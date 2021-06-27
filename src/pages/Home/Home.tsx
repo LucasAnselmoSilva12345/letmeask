@@ -1,11 +1,17 @@
+import { useHistory } from 'react-router-dom';
 import { Header } from '../../components/Header/Header';
+import { Button } from '../../components/Button/Button';
 
 import homeImg from '../../assets/images/home.svg';
 
 import './styles.css';
-import { Button } from '../../components/Button/Button';
 
 export function Home() {
+  const history = useHistory();
+
+  async function GoToLetMeAsk(){
+    history.push('/letmeask')
+  }
   return (
     <>
       <Header />
@@ -16,7 +22,7 @@ export function Home() {
             <h3>
               Crie / entre em <br/> salas dos mais variados temas e chame a galera
             </h3>
-            <Button>
+            <Button onClick={GoToLetMeAsk}>
               Crie &amp; Entre em salas
             </Button>
           </div>
