@@ -1,0 +1,26 @@
+.page-home{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.row{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.row img{
+  max-width: 100%;
+  margin-left: 37px;
+}
+
+.row h3{
+  font-size: 2rem;
+  color: #7b63c5;
+  margin-bottom: 65px;
+}

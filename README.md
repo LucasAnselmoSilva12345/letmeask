@@ -1,8 +1,8 @@
 ### Fazer no projeto LetMeAsk
 
-[] - project organization
+[ X ] - project organization
 
-[] - archive routes
+[ X ] - archive routes
 
 [] - Page home
 

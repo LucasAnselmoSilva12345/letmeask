@@ -1,0 +1,20 @@
+.menu{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-logo img{
+  width: 150px;
+}
+
+.menu a span{
+  font-size: 0.875rem;
+  color: #183128;
+}
+
