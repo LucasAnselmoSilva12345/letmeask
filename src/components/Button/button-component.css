@@ -32,3 +32,9 @@
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+@media (max-width: 800px){
+  .button{
+    width: 100%;
+  }
+}
