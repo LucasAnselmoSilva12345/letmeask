@@ -1,0 +1,80 @@
+.question{
+  background: #fefefe;
+  width: 450px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 24px;
+}
+
+.question.highlighted{
+  background-color: #f4f0ff;
+  border: 1px solid #835afd;
+}
+
+.question.answered{
+  background: #dbdcdd;
+}
+
+.question + .question{
+  margin-top: 8px;
+}
+
+.question:last-child{
+  margin-bottom: 8px;
+}
+
+.question p{
+  color: #292922;
+}
+
+.question footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.question .user-info{
+  display: flex;
+  align-items: center;
+}
+
+.question .user-info img{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.question .user-info span{
+  margin-left: 8px;
+  color: #29292e;
+  font-size: 14px;
+}
+
+.question footer button{
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+
+.question footer button.like-button{
+  display: flex;
+  align-items: flex-end;
+  color: #737380;
+  gap: 8px;
+  transition: filter 400ms;
+}
+
+.question footer button.like-button:hover{
+  filter: brightness(0.8);
+}
+
+.question footer button.liked{
+  color: #835afd;
+}
+
+.question footer button svg path{
+  stroke: #835afd;
+}
